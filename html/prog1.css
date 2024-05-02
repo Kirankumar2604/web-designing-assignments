@@ -1,0 +1,33 @@
+    .div1{
+        grid-area: ruthvik;
+        
+    }
+    .div2{
+        grid-area: shreyas;
+    }
+    .div3{
+        grid-area: mohan;
+    }
+    .div4{
+       grid-area: kiran;
+    }
+    .div5{
+        grid-area:kumar;
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-areas: 'ruthvik ruthvik ruthvik ruthvik ruthvik ruthvik'
+        'mohan mohan mohan kiran kiran'
+        'shreyas kumar kumar kumar kumar kumar';
+        gap: 10px;
+        background-color: #2196f3;
+        padding: 10px;
+    }
+
+    .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
