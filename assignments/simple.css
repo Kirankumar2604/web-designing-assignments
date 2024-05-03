@@ -1,0 +1,16 @@
+body{
+    background-color: t;
+}
+h1{
+    color: aliceblue;
+    background-color: black;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+img{
+    border: 10px solid;
+    margin: auto;
+}
